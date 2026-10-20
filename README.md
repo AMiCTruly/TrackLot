@@ -61,7 +61,7 @@ An event-driven serverless alerting system built with \*\*Terraform\*\*, \*\*AWS
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
