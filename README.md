@@ -1,4 +1,4 @@
-\# Serverless Vehicle Auction Monitor \& Ingestion Pipeline
+# Serverless Vehicle Auction Monitor \& Ingestion Pipeline
 
 
 
@@ -6,11 +6,10 @@ An event-driven serverless alerting system built with \*\*Terraform\*\*, \*\*AWS
 
 
 
-\---
+---
 
 
-
-\## Architecture Overview
+## Architecture Overview
 
 \[ Amazon EventBridge ]
 
@@ -46,7 +45,7 @@ An event-driven serverless alerting system built with \*\*Terraform\*\*, \*\*AWS
 
 
 
-\### Core Components
+### Core Components
 
 1\. \*\*Compute \& Scheduling:\*\* AWS Lambda triggered every 15 minutes by an EventBridge cron rule (`cron(\*/15 \* \* \* ? \*)`), eliminating persistent compute overhead.
 
