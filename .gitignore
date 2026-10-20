@@ -1,0 +1,21 @@
+# Sensitive variables and credentials
+terraform.tfvars
+*.tfvars
+
+# Terraform internal state and lock files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Build artifacts and archives
+package/
+lambda_function.zip
+response.json
+payload.json
+
+# Python environment & cache
+__pycache__/
+*.pyc
+venv/
+.env
